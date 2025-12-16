@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: hiring_tracker.py (help)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/hiring_tracker.py",
+      "args": ["--help"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: hiring_tracker.py (init + list)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/hiring_tracker.py",
+      "args": ["init"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
